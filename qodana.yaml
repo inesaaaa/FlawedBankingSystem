@@ -1,6 +1,15 @@
+bootstrap: ls -la
+
 version: "1.0"
 linter: jetbrains/qodana-jvm:2024.3
 profile:
   name: qodana.recommended
 include:
+  - name: AssignmentToNull
+  - name: JavaLangImport
+    paths:
+      - src/main/java/com/flawedbank/Dumb.java
   - name: CheckDependencyLicenses
+  - name: UNUSED_IMPORT
+    paths:
+      - src/main/java/com/flawedbank/Dumb.java
