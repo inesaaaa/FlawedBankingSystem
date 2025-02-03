@@ -12,8 +12,3 @@ include:
     paths:
       - src/main/java/com/flawedbank/Dumb.java
 fixesStrategy: cleanup
-
-# Enable baseline feature
-baseline:
-  enabled: true
-  file: ./qodana.sarif.json
