@@ -13,3 +13,4 @@ include:
   - name: UNUSED_IMPORT
     paths:
       - src/main/java/com/flawedbank/Dumb.java
+failThreshold: 5
