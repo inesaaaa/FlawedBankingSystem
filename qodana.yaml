@@ -1,5 +1,3 @@
-bootstrap: ls -la
-
 version: "1.0"
 linter: jetbrains/qodana-jvm:2024.3
 profile:
@@ -13,4 +11,9 @@ include:
   - name: UNUSED_IMPORT
     paths:
       - src/main/java/com/flawedbank/Dumb.java
-failThreshold: 5
+fixesStrategy: cleanup
+
+# Enable baseline feature
+baseline:
+  enabled: true
+  file: ./qodana.sarif.json
