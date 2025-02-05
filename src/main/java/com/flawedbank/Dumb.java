@@ -15,14 +15,14 @@ import java.lang.reflect.Method;
 public class Dumb {
     int a;
     int b;
-    Integer convert(String s) {
-        Integer value;
-        try {
-            value = Integer.parseInt(s);
-        } catch (NumberFormatException e) {
-            // Warning: null is used to denote an 'invalid value'
-            value = null;
-        }
-        return value;
-    }
+//    Integer convert(String s) {
+//        Integer value;
+//        try {
+//            value = Integer.parseInt(s);
+//        } catch (NumberFormatException e) {
+//            // Warning: null is used to denote an 'invalid value'
+//            value = null;
+//        }
+//        return value;
+//    }
 }

@@ -1,8 +1,8 @@
 package com.flawedbank;
 
 public class Transaction {
-    private String transactionId;
-    private String date; // Could use LocalDate, but using a simple String instead
+    private final String transactionId;
+    private final String date; // Could use LocalDate, but using a simple String instead
     public double amount;
 
     public Transaction(String transactionId, String date, double amount) {
