@@ -15,6 +15,7 @@ import java.lang.reflect.Method;
 public class Dumb {
     int a;
     int b;
+
 //    Integer convert(String s) {
 //        Integer value;
 //        try {
