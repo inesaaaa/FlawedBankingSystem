@@ -24,5 +24,5 @@ jobs:
         with:
           pr-mode: false
         env:
-          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_1450573641 }}
-          QODANA_ENDPOINT: 'https://web.cloud.sssa-stgn.aws.intellij.net'
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_502495180 }}
+          QODANA_ENDPOINT: 'https://qodana.cloud'
