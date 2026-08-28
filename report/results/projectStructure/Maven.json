@@ -1,0 +1,48 @@
+{
+  "libraries": [
+    {
+      "ideaName": "Maven: org.springframework:spring-core:5.3.21",
+      "unresolved": false,
+      "groupId": "org.springframework",
+      "artifactId": "spring-core",
+      "version": "5.3.21",
+      "baseVersion": "5.3.21",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
+    },
+    {
+      "ideaName": "Maven: org.springframework:spring-jcl:5.3.21",
+      "unresolved": false,
+      "groupId": "org.springframework",
+      "artifactId": "spring-jcl",
+      "version": "5.3.21",
+      "baseVersion": "5.3.21",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
+    },
+    {
+      "ideaName": "Maven: junit:junit:4.13.2",
+      "unresolved": false,
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.13.2",
+      "baseVersion": "4.13.2",
+      "type": "jar",
+      "optional": false,
+      "scope": "test"
+    },
+    {
+      "ideaName": "Maven: org.hamcrest:hamcrest-core:1.3",
+      "unresolved": false,
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "version": "1.3",
+      "baseVersion": "1.3",
+      "type": "jar",
+      "optional": false,
+      "scope": "test"
+    }
+  ]
+}

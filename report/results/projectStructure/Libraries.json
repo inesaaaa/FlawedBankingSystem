@@ -1,0 +1,32 @@
+{
+  "libraries": [
+    {
+      "name": "Maven: org.springframework:spring-core:5.3.21",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.21/spring-core-5.3.21.jar!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Maven: org.springframework:spring-jcl:5.3.21",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.21/spring-jcl-5.3.21.jar!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Maven: junit:junit:4.13.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar!/"
+      ],
+      "properties": {}
+    },
+    {
+      "name": "Maven: org.hamcrest:hamcrest-core:1.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/"
+      ],
+      "properties": {}
+    }
+  ]
+}

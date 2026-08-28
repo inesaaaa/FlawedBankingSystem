@@ -1,0 +1,318 @@
+Inspection ID;Inspection Group;Inspection Name;Inspection Language;Inspection Type;Absolute Time spent on Inspection, s;Percent of Time spent on Inspection;Problems Count;Times Inspection was Performed
+InjectedReferences;General;Injected references;;LOCAL;1.69;79.60%;0;101
+DataFlowIssue;Java/Probable bugs;Nullability and data flow problems;JAVA;LOCAL;0.04;1.89%;0;4
+deprecation;Java/Code maturity;Deprecated API usage;UAST;LOCAL;0.03;1.59%;0;4
+KotlinTestJUnit;Kotlin;kotlin-test-junit could be used;XML;LOCAL;0.03;1.55%;0;22
+DeprecatedMavenDependency;Kotlin;Deprecated library is used in Maven;XML;LOCAL;0.03;1.51%;0;22
+DifferentKotlinMavenVersion;Kotlin;Maven and IDE plugins versions are different;XML;LOCAL;0.02;1.14%;0;22
+UnnecessaryLocalVariable;Java/Data flow;Redundant local variable;JAVA;LOCAL;0.02;1.02%;0;4
+DuplicatedCode;General;Duplicated code fragment;;LOCAL;0.02;0.89%;0;101
+Contract;Java/Probable bugs;Contract issues;JAVA;LOCAL;0.02;0.79%;0;4
+CustomRegExpInspection;RegExp;Custom RegExp inspection;;LOCAL;0.01;0.62%;0;101
+UnsupportedCharacter;Java/Properties files;Unsupported character;UAST;LOCAL;0.01;0.60%;0;4
+UNUSED_IMPORT;Java/Imports;Unused import;JAVA;GLOBAL_SIMPLE;0.01;0.59%;11;101
+ConditionCoveredByFurtherCondition;Java/Verbose or redundant code constructs;Condition is covered by further condition;JAVA;LOCAL;0.01;0.55%;0;4
+StringConcatenationInLoop;Java/Performance;String concatenation in loop;JAVA;LOCAL;0.01;0.52%;0;4
+preview;Java/Compiler issues;Preview Feature warning;JAVA;LOCAL;0.01;0.47%;0;4
+resource;Java/Resource management;AutoCloseable used without 'try'-with-resources;JAVA;LOCAL;0.01;0.42%;0;4
+ObviousNullCheck;Java/Verbose or redundant code constructs;Null-check method is called with obviously non-null argument;JAVA;LOCAL;0.01;0.42%;0;4
+NotNullFieldNotInitialized;Java/Probable bugs/Nullability problems;Non-null field is not initialized;JAVA;LOCAL;0.01;0.40%;0;4
+unchecked;Java/Compiler issues;Unchecked warning;JAVA;LOCAL;0.01;0.39%;0;4
+RedundantIfStatement;Java/Control flow issues;Redundant 'if' statement;JAVA;LOCAL;0.01;0.37%;0;4
+MagicConstant;Java/Probable bugs;Magic constant;JAVA;LOCAL;0.01;0.36%;0;4
+ClassEscapesDefinedScope;Java/Visibility;Class is exposed outside of its visibility scope;JAVA;LOCAL;0.01;0.36%;0;4
+KotlinMavenPluginPhase;Kotlin;Kotlin Maven Plugin misconfigured;XML;LOCAL;0.01;0.32%;0;22
+NewClassNamingConvention;Java/Naming conventions/Class;Class naming convention;JAVA;LOCAL;0.01;0.29%;0;4
+CommentedOutCode;Java/Code maturity;Commented out code;JAVA;LOCAL;0.01;0.27%;1;4
+MismatchedQueryAndUpdateOfStringBuilder;Java/Probable bugs;Mismatched query and update of 'StringBuilder';JAVA;LOCAL;0.01;0.27%;0;4
+DialogTitleCapitalization;Java/Internationalization;Incorrect string capitalization;UAST;LOCAL;0.01;0.24%;0;4
+DataProviderReturnType;Java/TestNG;Invalid data provider return type;JAVA;LOCAL;0.00;0.19%;0;4
+groupsTestNG;Java/TestNG;Undefined group name;JAVA;LOCAL;0.00;0.16%;0;4
+DifferentMavenStdlibVersion;Kotlin;Library and maven plugin versions are different;XML;LOCAL;0.00;0.16%;0;22
+SimplifyOptionalCallChains;Java/Verbose or redundant code constructs;Optional call chain can be simplified;JAVA;LOCAL;0.00;0.15%;0;4
+LoggingPlaceholderCountMatchesArgumentCount;JVM languages/Logging;Number of placeholders does not match number of arguments in logging call;UAST;LOCAL;0.00;0.15%;0;4
+UnusedAssignment;Java/Probable bugs;Unused assignment;JAVA;LOCAL;0.00;0.14%;0;4
+ConstantValue;Java/Probable bugs;Constant values;JAVA;LOCAL;0.00;0.13%;0;4
+UnresolvedPropertyKey;Java/Properties files;Invalid property key;JAVA;LOCAL;0.00;0.11%;0;4
+SuspiciousMethodCalls;Java/Probable bugs;Suspicious collection method call;JAVA;LOCAL;0.00;0.11%;0;4
+CloneableClassWithoutClone;Java/Cloning issues;Cloneable class without 'clone()' method;JAVA;LOCAL;0.00;0.08%;0;4
+SynchronizeOnNonFinalField;Java/Threading issues;Synchronization on a non-final field;JAVA;LOCAL;0.00;0.08%;0;4
+removal;Java/Code maturity;Usage of API marked for removal;UAST;LOCAL;0.00;0.06%;0;4
+MismatchedQueryAndUpdateOfCollection;Java/Probable bugs;Mismatched query and update of collection;JAVA;LOCAL;0.00;0.06%;0;4
+ArrayObjectsEquals;Java/Probable bugs;Use of shallow or 'Objects' methods with arrays;JAVA;LOCAL;0.00;0.06%;0;4
+WriteOnlyObject;Java/Probable bugs;Write-only object;JAVA;LOCAL;0.00;0.05%;0;4
+CStyleArrayDeclaration;Java/Code style issues;C-style array declaration;JAVA;LOCAL;0.00;0.05%;0;4
+SuspiciousNameCombination;Java/Probable bugs;Suspicious variable/parameter name combination;JAVA;LOCAL;0.00;0.05%;0;4
+PointlessBooleanExpression;Java/Control flow issues;Pointless boolean expression;JAVA;LOCAL;0.00;0.04%;0;4
+JavacQuirks;Java/Compiler issues;Javac quirks;JAVA;LOCAL;0.00;0.04%;0;4
+ForwardCompatibility;Java/Java language level issues;Forward compatibility;JAVA;LOCAL;0.00;0.04%;0;4
+dependsOnMethodTestNG;Java/TestNG;Illegal method name passed to 'dependsOnMethods';JAVA;LOCAL;0.00;0.04%;0;4
+LoggingStringTemplateAsArgument;JVM languages/Logging;String template as argument to logging call;UAST;LOCAL;0.00;0.03%;0;4
+TestFailedLine;JVM languages/Test frameworks;Failed line in test;UAST;LOCAL;0.00;0.03%;0;4
+RedundantCast;Java/Verbose or redundant code constructs;Redundant type cast;JAVA;LOCAL;0.00;0.03%;0;4
+JavadocDeclaration;Java/Javadoc;Javadoc declaration problems;JAVA;LOCAL;0.00;0.02%;0;4
+IfStatementWithIdenticalBranches;Java/Control flow issues;'if' statement with identical branches or common parts;JAVA;LOCAL;0.00;0.02%;0;4
+ParameterCanBeLocal;Java/Class structure;Value passed as parameter never read;JAVA;LOCAL;0.00;0.02%;0;4
+JavaExistingMethodCanBeUsed;Java/Verbose or redundant code constructs;Copy of existing static method body;JAVA;LOCAL;0.00;0.02%;0;4
+DuplicateExpressions;Java/Verbose or redundant code constructs;Multiple occurrences of the same expression;JAVA;LOCAL;0.00;0.02%;0;4
+ImplicitSubclassInspection;Java/Inheritance issues;Final declaration can't be overridden at runtime;UAST;LOCAL;0.00;0.02%;0;4
+SizeReplaceableByIsEmpty;Java/Code style issues;'size() == 0' can be replaced with 'isEmpty()';JAVA;LOCAL;0.00;0.01%;0;4
+AssertBetweenInconvertibleTypes;JVM languages/Test frameworks;'assertEquals()' between objects of inconvertible types;UAST;LOCAL;0.00;0.01%;0;4
+AssignmentUsedAsCondition;Java/Assignment issues;Assignment used as condition;JAVA;LOCAL;0.00;0.01%;0;4
+WaitWhileHoldingTwoLocks;Java/Threading issues;'wait()' while holding two locks;JAVA;LOCAL;0.00;0.01%;0;4
+RedundantArrayCreation;Java/Verbose or redundant code constructs;Redundant array creation;JAVA;LOCAL;0.00;0.01%;0;4
+FinalizeNotProtected;Java/Finalization;'finalize()' should be protected, not public;JAVA;LOCAL;0.00;0.01%;0;4
+UnnecessaryTemporaryOnConversionFromString;Java/Performance;Unnecessary temporary object in conversion from 'String';JAVA;LOCAL;0.00;0.01%;0;4
+ConcatenationWithEmptyString;Java/Verbose or redundant code constructs;Concatenation with empty string;JAVA;LOCAL;0.00;0.01%;0;4
+MethodDoesntCallSuperMethod;Java/Inheritance issues;Method does not call super method;JAVA;LOCAL;0.00;0.01%;0;4
+InfiniteRecursion;Java/Probable bugs;Infinite recursion;JAVA;LOCAL;0.00;0.01%;0;4
+MalformedDataProvider;Java/TestNG;Data provider problems;JAVA;LOCAL;0.00;0.01%;0;4
+NumericOverflow;Java/Numeric issues;Numeric overflow;JAVA;LOCAL;0.00;0.01%;0;4
+UnsupportedChronoFieldUnitCall;Java/Probable bugs;Call methods with unsupported 'java.time.temporal.ChronoUnit' and 'java.time.temporal.ChronoField';JAVA;LOCAL;0.00;0.01%;0;4
+Dependency;JVM languages;Illegal package dependencies;UAST;LOCAL;0.00;0.01%;0;4
+ScheduledThreadPoolExecutorWithZeroCoreThreads;Java/Probable bugs;'ScheduledThreadPoolExecutor' with zero core threads;JAVA;LOCAL;0.00;0.01%;0;4
+DoubleNegation;Java/Control flow issues;Double negation;JAVA;LOCAL;0.00;0.01%;0;4
+ExtractMethodRecommender;Java/Code maturity;Method can be extracted;JAVA;LOCAL;0.00;0.01%;0;4
+StringOperationCanBeSimplified;Java/Verbose or redundant code constructs;Redundant 'String' operation;JAVA;LOCAL;0.00;0.01%;0;4
+MisorderedAssertEqualsArguments;Java/Test frameworks;Misordered 'assertEquals()' arguments;JAVA;LOCAL;0.00;0.01%;0;4
+ExternalizableWithoutPublicNoArgConstructor;Java/Serialization issues;'Externalizable' class without 'public' no-arg constructor;JAVA;LOCAL;0.00;0.01%;0;4
+JavaLangInvokeHandleSignature;Java/Reflective access;MethodHandle/VarHandle type mismatch;JAVA;LOCAL;0.00;0.01%;0;4
+NegativeIntConstantInLongContext;Java/Numeric issues;Negative int hexadecimal constant in long context;JAVA;LOCAL;0.00;0.01%;0;4
+FieldCanBeLocal;Java/Class structure;Field can be local variable;JAVA;LOCAL;0.00;0.01%;0;4
+ThrowablePrintedToSystemOut;Java/Code maturity;'Throwable' printed to 'System.out';JAVA;LOCAL;0.00;0.01%;0;4
+AtomicFieldUpdaterNotStaticFinal;Java/Threading issues;'AtomicFieldUpdater' field not declared 'static final';JAVA;LOCAL;0.00;0.01%;0;4
+SerialVersionUIDWithWrongSignature;Java/Serialization issues;'serialVersionUID' field not declared 'private static final long';JAVA;LOCAL;0.00;0.01%;0;4
+EqualsWithItself;Java/Probable bugs;'equals()' called on itself;JAVA;LOCAL;0.00;0.01%;0;4
+WrapperTypeMayBePrimitive;Java/Performance;Wrapper type may be primitive;JAVA;LOCAL;0.00;0.01%;0;4
+lossy-conversions;Java/Numeric issues;Possibly lossy implicit cast in compound assignment;JAVA;LOCAL;0.00;0.01%;0;4
+JavadocReference;Java/Javadoc;Declaration has problems in Javadoc references;JAVA;LOCAL;0.00;0.01%;0;4
+SimplifyCollector;Java/Verbose or redundant code constructs;Simplifiable collector;JAVA;LOCAL;0.00;0.01%;0;4
+ExpressionComparedToItself;Java/Probable bugs;Expression is compared to itself;JAVA;LOCAL;0.00;0.01%;0;4
+StringBufferReplaceableByString;Java/Verbose or redundant code constructs;'StringBuilder' can be replaced with 'String';JAVA;LOCAL;0.00;0.01%;0;4
+ManualMinMaxCalculation;Java/Verbose or redundant code constructs;Manual min/max calculation;JAVA;LOCAL;0.00;0.01%;0;4
+KotlinSealedInheritorsInJava;Kotlin/Java interop issues;Inheritance of Kotlin sealed interface/class from Java;JAVA;LOCAL;0.00;0.01%;0;4
+ExcessiveRangeCheck;Java/Verbose or redundant code constructs;Excessive range check;JAVA;LOCAL;0.00;0.01%;0;4
+OctalInteger;Java/Numeric issues;Octal integer;JAVA;LOCAL;0.00;0.01%;0;4
+ToArrayCallWithZeroLengthArrayArgument;Java/Performance;'Collection.toArray()' call style;JAVA;LOCAL;0.00;0.00%;0;4
+LoggerInitializedWithForeignClass;Java/Logging;Logger initialized with foreign class;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousDateFormat;Java/Probable bugs;Suspicious date format pattern;JAVA;LOCAL;0.00;0.00%;0;4
+LoopConditionNotUpdatedInsideLoop;Java/Control flow issues;Loop variable not updated inside loop;JAVA;LOCAL;0.00;0.00%;0;4
+SystemGetProperty;JVM languages;Call to 'System.getProperty(str)' could be simplified;UAST;LOCAL;0.00;0.00%;0;4
+DoubleCheckedLocking;Java/Threading issues;Double-checked locking;JAVA;LOCAL;0.00;0.00%;0;4
+StaticInitializerReferencesSubClass;Java/Threading issues;Static initializer references subclass;JAVA;LOCAL;0.00;0.00%;0;4
+SortedCollectionWithNonComparableKeys;Java/Probable bugs;Sorted collection with non-comparable elements;JAVA;LOCAL;0.00;0.00%;0;4
+ForLoopReplaceableByWhile;Java/Control flow issues;'for' loop may be replaced by 'while' loop;JAVA;LOCAL;0.00;0.00%;0;4
+NonSerializableClassWithSerialVersionUID;Java/Serialization issues;Non-serializable class with 'serialVersionUID';JAVA;LOCAL;0.00;0.00%;0;4
+LocalVariableUsedAndDeclaredInDifferentSwitchBranches;Java/Control flow issues;Local variable used and declared in different 'switch' branches;JAVA;LOCAL;0.00;0.00%;0;4
+NumberEquality;Java/Probable bugs;Number comparison using '==', instead of 'equals()';JAVA;LOCAL;0.00;0.00%;0;4
+EqualsBetweenInconvertibleTypes;Java/Probable bugs;'equals()' between objects of inconvertible types;JAVA;LOCAL;0.00;0.00%;0;4
+DuplicateCondition;Java/Control flow issues;Duplicate condition;JAVA;LOCAL;0.00;0.00%;0;4
+SynchronizationOnGetClass;Java/Threading issues;Synchronization on 'getClass()';JAVA;LOCAL;0.00;0.00%;0;4
+EqualsDoesntCheckParameterClass;Java/Probable bugs;'equals()' method that does not check the class of its parameter;JAVA;LOCAL;0.00;0.00%;0;4
+AccessStaticViaInstance;Java/Declaration redundancy;Access static member via instance reference;JAVA;LOCAL;0.00;0.00%;0;4
+MappingBeforeCount;Java/Verbose or redundant code constructs;Mapping call before count();JAVA;LOCAL;0.00;0.00%;0;4
+ExcessiveLambdaUsage;Java/Verbose or redundant code constructs;Excessive lambda usage;JAVA;LOCAL;0.00;0.00%;0;4
+SafeVarargsOnNonReifiableType;Java/Declaration redundancy;@SafeVarargs is not applicable to reifiable types;JAVA;LOCAL;0.00;0.00%;0;4
+PointlessBitwiseExpression;Java/Bitwise operation issues;Pointless bitwise expression;JAVA;LOCAL;0.00;0.00%;0;4
+MathRandomCastToInt;Java/Probable bugs;'Math.random()' cast to 'int';JAVA;LOCAL;0.00;0.00%;0;4
+TextLabelInSwitchStatement;Java/Probable bugs;Text label in 'switch' statement;JAVA;LOCAL;0.00;0.00%;0;4
+DuplicateThrows;Java/Declaration redundancy;Duplicate throws;JAVA;LOCAL;0.00;0.00%;0;4
+JavaEmptyModuleInfoFile;Java/Visibility;Empty 'module-info.java' file;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryUnaryMinus;Java/Numeric issues;Unnecessary unary minus;JAVA;LOCAL;0.00;0.00%;0;4
+MismatchedStringCase;Java/Probable bugs;Mismatched case in 'String' operation;JAVA;LOCAL;0.00;0.00%;0;4
+ClassExplicitlyAnnotation;Java/Inheritance issues;Class extends annotation interface;JAVA;LOCAL;0.00;0.00%;0;4
+ReplaceInefficientStreamCount;Java/Performance;Inefficient Stream API call chains ending with count();JAVA;LOCAL;0.00;0.00%;0;4
+KotlinInternalInJava;Kotlin/Java interop issues;Usage of Kotlin internal declarations from Java;JAVA;LOCAL;0.00;0.00%;0;4
+ManualArrayToCollectionCopy;Java/Performance;Manual array to collection copy;JAVA;LOCAL;0.00;0.00%;0;4
+TypeParameterHidesVisibleType;Java/Visibility;Type parameter hides visible type;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryCallToStringValueOf;Java/Code style issues;Unnecessary conversion to 'String';JAVA;LOCAL;0.00;0.00%;0;4
+JavaReflectionMemberAccess;Java/Reflective access;Reflective access to non-existent or not visible class member;JAVA;LOCAL;0.00;0.00%;0;4
+MaskedAssertion;Java/Test frameworks;Assertion is suppressed by 'catch';JAVA;LOCAL;0.00;0.00%;0;4
+StringTokenizerDelimiter;Java/Probable bugs;Duplicated delimiters in 'StringTokenizer';JAVA;LOCAL;0.00;0.00%;0;4
+ReflectionForUnavailableAnnotation;Java/Probable bugs;Reflective access to a source-only annotation;JAVA;LOCAL;0.00;0.00%;0;4
+ReplaceOnLiteralHasNoEffect;Java/Verbose or redundant code constructs;Replacement operation has no effect;JAVA;LOCAL;0.00;0.00%;0;4
+InstantiatingObjectToGetClassObject;Java/Performance;Instantiating object to get 'Class' object;JAVA;LOCAL;0.00;0.00%;0;4
+ShiftOutOfRange;Java/Bitwise operation issues;Shift operation by inappropriate constant;JAVA;LOCAL;0.00;0.00%;0;4
+UseNamedGetter;Kotlin/Other problems;Use named getter;JAVA;LOCAL;0.00;0.00%;0;4
+ProtectedMemberInFinalClass;Java/Declaration redundancy;'protected' member in 'final' class;JAVA;LOCAL;0.00;0.00%;0;4
+IterableUsedAsVararg;Java/Probable bugs;Iterable is used as vararg;JAVA;LOCAL;0.00;0.00%;0;4
+DanglingJavadoc;Java/Javadoc;Dangling Javadoc comment;JAVA;LOCAL;0.00;0.00%;0;4
+UnreachableCatch;Java/Verbose or redundant code constructs;Unreachable catch section;JAVA;LOCAL;0.00;0.00%;0;4
+UnusedLabel;Java/Declaration redundancy;Unused label;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryInitCause;Java/Error handling;Unnecessary call to 'Throwable.initCause()';JAVA;LOCAL;0.00;0.00%;0;4
+ComparisonOfShortAndChar;Java/Numeric issues;Comparison of 'short' and 'char' values;JAVA;LOCAL;0.00;0.00%;0;4
+OptionalUsedAsFieldOrParameterType;Java/Abstraction issues;'Optional' used as field or parameter type;JAVA;LOCAL;0.00;0.00%;0;4
+NewObjectEquality;Java/Probable bugs;New object is compared using '==';JAVA;LOCAL;0.00;0.00%;0;4
+RedundantCompareCall;Java/Verbose or redundant code constructs;Redundant 'compare()' method call;JAVA;LOCAL;0.00;0.00%;0;4
+ConstantForZeroLengthArrayAllocation;Java/Memory;Unnecessary zero length array usage;JAVA;LOCAL;0.00;0.00%;0;4
+CallToThreadRun;JVM languages;Call to 'Thread.run()';UAST;LOCAL;0.00;0.00%;0;4
+JavaReflectionInvocation;Java/Reflective access;Reflective invocation arguments mismatch;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryBreak;Java/Verbose or redundant code constructs;Unnecessary 'break' statement;JAVA;LOCAL;0.00;0.00%;0;4
+CaughtExceptionImmediatelyRethrown;Java/Error handling;Caught exception is immediately rethrown;JAVA;LOCAL;0.00;0.00%;0;4
+InstantiationOfUtilityClass;Java/Probable bugs;Instantiation of utility class;JAVA;LOCAL;0.00;0.00%;0;4
+UnpredictableBigDecimalConstructorCall;Java/Numeric issues;Unpredictable 'BigDecimal' constructor call;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryTemporaryOnConversionToString;Java/Performance;Unnecessary temporary object in conversion to 'String';JAVA;LOCAL;0.00;0.00%;0;4
+ArrayHashCode;Java/Probable bugs;'hashCode()' called on array;JAVA;LOCAL;0.00;0.00%;0;4
+ArraysAsListWithZeroOrOneArgument;Java/Performance;Call to 'Arrays.asList()' with too few arguments;JAVA;LOCAL;0.00;0.00%;0;4
+TypeParameterExplicitlyExtendsObject;Java/Code style issues;Type parameter explicitly extends 'Object';JAVA;LOCAL;0.00;0.00%;0;4
+IntegerDivisionInFloatingPointContext;Java/Numeric issues;Integer division in floating-point context;JAVA;LOCAL;0.00;0.00%;0;4
+NewStringBufferWithCharArgument;Java/Probable bugs;StringBuilder constructor call with 'char' argument;JAVA;LOCAL;0.00;0.00%;0;4
+StringEquality;Java/Probable bugs;String comparison using '==', instead of 'equals()';JAVA;LOCAL;0.00;0.00%;0;4
+StringConcatenationInFormatCall;Java/Probable bugs;String concatenation as argument to 'format()' call;JAVA;LOCAL;0.00;0.00%;0;4
+ConditionalBreakInInfiniteLoop;Java/Control flow issues;Conditional break inside loop;JAVA;LOCAL;0.00;0.00%;0;4
+ClassGetClass;Java/Probable bugs;Suspicious 'Class.getClass()' call;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantClassCall;Java/Verbose or redundant code constructs;Redundant 'isInstance()' or 'cast()' call;JAVA;LOCAL;0.00;0.00%;0;4
+DuplicatedDataProviderNames;Java/TestNG;Duplicated data provider names;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryStringEscape;Java/Verbose or redundant code constructs;Unnecessarily escaped character;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryLabelOnBreakStatement;Java/Verbose or redundant code constructs;Unnecessary label on 'break' statement;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryLabelOnContinueStatement;Java/Verbose or redundant code constructs;Unnecessary label on 'continue' statement;JAVA;LOCAL;0.00;0.00%;0;4
+ManualArrayCopy;Java/Performance;Manual array copy;JAVA;LOCAL;0.00;0.00%;0;4
+NonFinalFieldInEnum;Java/Class structure;Non-final field in 'enum';JAVA;LOCAL;0.00;0.00%;0;4
+EmptySynchronizedStatement;Java/Threading issues;Empty 'synchronized' statement;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousListRemoveInLoop;Java/Probable bugs;Suspicious 'List.remove()' in loop;JAVA;LOCAL;0.00;0.00%;0;4
+TrivialFunctionalExpressionUsage;Java/Declaration redundancy;Trivial usage of functional expression;JAVA;LOCAL;0.00;0.00%;0;4
+JavadocLinkAsPlainText;Java/Javadoc;Link specified as plain text;JAVA;LOCAL;0.00;0.00%;0;4
+WhileCanBeDoWhile;Java/Control flow issues;'while' can be replaced with 'do while';JAVA;LOCAL;0.00;0.00%;0;4
+UrlHashCode;JVM languages;Call to 'equals()' or 'hashCode()' on 'URL' object;UAST;LOCAL;0.00;0.00%;0;4
+DefaultAnnotationParam;Java/Declaration redundancy;Default annotation parameter value;JAVA;LOCAL;0.00;0.00%;0;4
+WhileLoopSpinsOnField;Java/Threading issues;'while' loop spins on field;JAVA;LOCAL;0.00;0.00%;0;4
+ThrowFromFinallyBlock;Java/Error handling;'throw' inside 'finally' block;JAVA;LOCAL;0.00;0.00%;0;4
+finally;Java/Error handling;'finally' block which can not complete normally;JAVA;LOCAL;0.00;0.00%;0;4
+BooleanConstructorCall;Java/Performance;Boolean constructor call;JAVA;LOCAL;0.00;0.00%;0;4
+CallToSystemRunFinalizersOnExit;Java/Threading issues;Call to 'System.runFinalizersOnExit()';JAVA;LOCAL;0.00;0.00%;0;4
+InfiniteLoopStatement;Java/Control flow issues;Infinite loop statement;JAVA;LOCAL;0.00;0.00%;0;4
+ReplaceAllNonRegex;Java/Performance;Non-regex 'replaceAll()' can be replaced with 'replace()';JAVA;LOCAL;0.00;0.00%;0;4
+InstantiatingAThreadWithDefaultRunMethod;Java/Threading issues;Instantiating a 'Thread' with default 'run()' method;JAVA;LOCAL;0.00;0.00%;0;4
+IdempotentLoopBody;Java/Control flow issues;Idempotent loop body;JAVA;LOCAL;0.00;0.00%;0;4
+FinalizeCalledExplicitly;Java/Finalization;'finalize()' called explicitly;JAVA;LOCAL;0.00;0.00%;0;4
+SlowAbstractSetRemoveAll;Java/Performance;Call to 'set.removeAll(list)' may work slowly;JAVA;LOCAL;0.00;0.00%;0;4
+ConfusingMainMethod;Java/Probable bugs;Confusing 'main()' method;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousRegexArgument;Java/Probable bugs;Suspicious regex expression argument;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantUnmodifiable;Java/Verbose or redundant code constructs;Redundant usage of unmodifiable collection wrappers;JAVA;LOCAL;0.00;0.00%;0;4
+LongLiteralEndingWithLowercaseL;Java/Numeric issues;'long' literal ending with 'l' instead of 'L';JAVA;LOCAL;0.00;0.00%;0;4
+OptionalGetWithoutIsPresent;Java/Probable bugs;Optional.get() is called without isPresent() check;JAVA;LOCAL;0.00;0.00%;0;4
+NonAtomicOperationOnVolatileField;Java/Threading issues;Non-atomic operation on 'volatile' field;JAVA;LOCAL;0.00;0.00%;0;4
+ReturnInsideFinallyBlock;Java/Error handling;'return' inside 'finally' block;UAST;LOCAL;0.00;0.00%;0;4
+OptionalIsPresent;Java/Code style issues;Non functional style 'Optional.isPresent()' usage;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantOperationOnEmptyContainer;Java/Probable bugs;Redundant operation on empty container;JAVA;LOCAL;0.00;0.00%;0;4
+ClassExplicitlyExtendsObject;Java/Code style issues;Class explicitly extends 'Object';JAVA;LOCAL;0.00;0.00%;0;4
+LoopStatementThatDoesntLoop;Java/Control flow issues;Loop statement that does not loop;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantLengthCheck;Java/Verbose or redundant code constructs;Redundant array length check;JAVA;LOCAL;0.00;0.00%;0;4
+ConstantConditionalExpression;Java/Control flow issues;Constant conditional expression;JAVA;LOCAL;0.00;0.00%;0;4
+KotlinJvmAnnotationInJava;Kotlin/Java interop issues;Kotlin JVM annotation in Java;JAVA;LOCAL;0.00;0.00%;0;4
+CloneDoesntDeclareCloneNotSupportedException;Java/Cloning issues;'clone()' does not declare 'CloneNotSupportedException';JAVA;LOCAL;0.00;0.00%;0;4
+MismatchedJavadocCode;Java/Javadoc;Mismatch between Javadoc and code;JAVA;LOCAL;0.00;0.00%;0;4
+CatchMayIgnoreException;Java/Error handling;Catch block may ignore exception;JAVA;LOCAL;0.00;0.00%;0;4
+IOStreamConstructor;Java/Performance;'InputStream' and 'OutputStream' can be constructed using 'Files' methods;JAVA;LOCAL;0.00;0.00%;0;4
+OverflowingLoopIndex;Java/Probable bugs;Loop executes zero or billions of times;JAVA;LOCAL;0.00;0.00%;0;4
+InnerClassMayBeStatic;Java/Memory;Inner class may be 'static';JAVA;LOCAL;0.00;0.00%;0;4
+WrongPackageStatement;Java/Probable bugs;Wrong package statement;JAVA;LOCAL;0.00;0.00%;0;4
+ComparisonToNaN;Java/Numeric issues;Comparison to 'Double.NaN' or 'Float.NaN';JAVA;LOCAL;0.00;0.00%;0;4
+MetaAnnotationWithoutRuntimeRetention;Java/JUnit;Test annotation without '@Retention(RUNTIME)' annotation;JAVA;LOCAL;0.00;0.00%;0;4
+PatternVariableHidesField;Java/Visibility;Pattern variable hides field;JAVA;LOCAL;0.00;0.00%;0;4
+EmptyClassInitializer;Java/Declaration redundancy;Empty class initializer;JAVA;LOCAL;0.00;0.00%;0;4
+CachedNumberConstructorCall;Java/Numeric issues;Number constructor call with primitive argument;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryContinue;Java/Verbose or redundant code constructs;Unnecessary 'continue' statement;JAVA;LOCAL;0.00;0.00%;0;4
+BigDecimalMethodWithoutRoundingCalled;Java/Numeric issues;Call to 'BigDecimal' method without a rounding mode argument;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryModifier;Java/Code style issues;Unnecessary modifier;JAVA;LOCAL;0.00;0.00%;0;4
+PointlessArithmeticExpression;Java/Numeric issues;Pointless arithmetic expression;JAVA;LOCAL;0.00;0.00%;0;4
+EmptyFinallyBlock;Java/Error handling;Empty 'finally' block;JAVA;LOCAL;0.00;0.00%;0;4
+FinalMethodInFinalClass;Java/Declaration redundancy;'final' method in 'final' class;JAVA;LOCAL;0.00;0.00%;0;4
+FinalPrivateMethod;Java/Class structure;'private' method declared 'final';JAVA;LOCAL;0.00;0.00%;0;4
+ContinueOrBreakFromFinallyBlock;Java/Error handling;'continue' or 'break' inside 'finally' block;JAVA;LOCAL;0.00;0.00%;0;4
+FinalStaticMethod;Java/Class structure;'static' method declared 'final';JAVA;LOCAL;0.00;0.00%;0;4
+RedundantTypeArguments;Java/Verbose or redundant code constructs;Redundant type arguments;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousInvocationHandlerImplementation;Java/Probable bugs;Suspicious 'InvocationHandler' implementation;JAVA;LOCAL;0.00;0.00%;0;4
+ExplicitArrayFilling;Java/Verbose or redundant code constructs;Explicit array filling;JAVA;LOCAL;0.00;0.00%;0;4
+MismatchedReadAndWriteOfArray;Java/Probable bugs;Mismatched read and write of array;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantMethodOverride;Java/Inheritance issues;Method is identical to its super method;JAVA;LOCAL;0.00;0.00%;0;4
+IntegerMultiplicationImplicitCastToLong;Java/Numeric issues/Cast;Integer multiplication or shift implicitly cast to 'long';JAVA;LOCAL;0.00;0.00%;0;4
+OptionalAssignedToNull;Java/Code maturity;Null value for Optional type;JAVA;LOCAL;0.00;0.00%;0;4
+ListRemoveInLoop;Java/Performance;'List.remove()' called in loop;JAVA;LOCAL;0.00;0.00%;0;4
+SimplifiableBooleanExpression;Java/Control flow issues;Simplifiable boolean expression;JAVA;LOCAL;0.00;0.00%;0;4
+StringConcatenationInMessageFormatCall;Java/Probable bugs;String concatenation as argument to 'MessageFormat.format()' call;JAVA;LOCAL;0.00;0.00%;0;4
+IncompatibleBitwiseMaskOperation;Java/Bitwise operation issues;Incompatible bitwise mask operation;JAVA;LOCAL;0.00;0.00%;0;4
+IteratorHasNextCallsIteratorNext;Java/Probable bugs;'Iterator.hasNext()' which calls 'next()';JAVA;LOCAL;0.00;0.00%;0;4
+RedundantExplicitClose;Java/Declaration redundancy;Redundant 'close()';JAVA;LOCAL;0.00;0.00%;0;4
+CallToPrintStackTrace;Java/Code maturity;Call to 'printStackTrace()';JAVA;LOCAL;0.00;0.00%;0;4
+UnsatisfiedRange;Java/Probable bugs;Return value is outside of declared range;JAVA;LOCAL;0.00;0.00%;0;4
+MathRoundingWithIntArgument;Java/Probable bugs;Call math rounding with 'int' argument;JAVA;LOCAL;0.00;0.00%;0;4
+StringConcatenationArgumentToLogCall;Java/Logging;String concatenation as argument to logging call;JAVA;LOCAL;0.00;0.00%;0;4
+StringEqualsCharSequence;Java/Probable bugs;'String.equals()' called with 'CharSequence' argument;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessarySemicolon;Java/Code style issues;Unnecessary semicolon;JAVA;LOCAL;0.00;0.00%;0;4
+UnaryPlus;Java/Numeric issues;Unary plus;JAVA;LOCAL;0.00;0.00%;0;4
+SimplifyStreamApiCallChains;Java/Verbose or redundant code constructs;Stream API call chain can be simplified;JAVA;LOCAL;0.00;0.00%;0;4
+InterfaceMethodClashesWithObject;Java/Abstraction issues;Interface method clashes with method in 'Object';JAVA;LOCAL;0.00;0.00%;0;4
+SimplifiableAssertion;Java/Test frameworks;Simplifiable assertion;JAVA;LOCAL;0.00;0.00%;0;4
+StatementWithEmptyBody;Java/Probable bugs;Statement with empty body;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantEscapeInRegexReplacement;Java/Verbose or redundant code constructs;Redundant escape in regex replacement string;JAVA;LOCAL;0.00;0.00%;0;4
+ComparatorResultComparison;Java/Probable bugs;Suspicious usage of compare method;JAVA;LOCAL;0.00;0.00%;0;4
+ListIndexOfReplaceableByContains;Java/Code style issues;'List.indexOf()' expression can be replaced with 'contains()';JAVA;LOCAL;0.00;0.00%;0;4
+NonStrictComparisonCanBeEquality;Java/Verbose or redundant code constructs;Non-strict inequality '>=' or '<=' can be replaced with '==';JAVA;LOCAL;0.00;0.00%;0;4
+CharsetObjectCanBeUsed;Java/Code style issues;Standard 'Charset' object can be used;JAVA;LOCAL;0.00;0.00%;0;4
+ImplicitArrayToString;Java/Probable bugs;Call to 'toString()' on array;JAVA;LOCAL;0.00;0.00%;0;4
+EnumValuesSoftDeprecateInJava;Kotlin/Other problems;'Enum.values()' is recommended to be replaced by 'Enum.getEntries()' since Kotlin 1.9;JAVA;LOCAL;0.00;0.00%;0;4
+ComparatorMethodParameterNotUsed;Java/Probable bugs;Suspicious 'Comparator.compare()' implementation;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousToArrayCall;Java/Probable bugs;Suspicious 'Collection.toArray()' call;JAVA;LOCAL;0.00;0.00%;0;4
+ThreadLocalSetWithNull;Java/Threading issues;'ThreadLocal.set()' with null as an argument;JAVA;LOCAL;0.00;0.00%;0;4
+divzero;Java/Numeric issues;Division by zero;JAVA;LOCAL;0.00;0.00%;0;4
+FieldMayBeFinal;Java/Code style issues;Field may be 'final';JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousArrayMethodCall;Java/Probable bugs;Suspicious 'Arrays' method call;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryUnicodeEscape;Java/Internationalization;Unnecessary Unicode escape sequence;JAVA;LOCAL;0.00;0.00%;0;4
+SynchronizationOnLocalVariableOrMethodParameter;Java/Threading issues;Synchronization on local variable or method parameter;JAVA;LOCAL;0.00;0.00%;0;4
+SafeVarargsHasNoEffect;Java/Probable bugs;@SafeVarargs do not suppress potentially unsafe operations;JAVA;LOCAL;0.00;0.00%;0;4
+IncorrectMessageFormat;Java/Probable bugs;Incorrect 'MessageFormat' pattern;JAVA;LOCAL;0.00;0.00%;0;4
+BusyWait;Java/Threading issues;Busy wait;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantFileCreation;Java/Verbose or redundant code constructs;Redundant 'File' instance creation;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousTernaryOperatorInVarargsCall;Java/Probable bugs;Suspicious ternary operator in varargs method call;JAVA;LOCAL;0.00;0.00%;0;4
+MethodNameSameAsClassName;Java/Naming conventions/Method;Method name same as class name;JAVA;LOCAL;0.00;0.00%;0;4
+UseBulkOperation;Java/Performance;Bulk operation can be used instead of iteration;JAVA;LOCAL;0.00;0.00%;0;4
+OverwrittenKey;Java/Probable bugs;Overwritten Map, Set, or array element;JAVA;LOCAL;0.00;0.00%;0;4
+AssignmentToCatchBlockParameter;Java/Assignment issues;Assignment to 'catch' block parameter;JAVA;LOCAL;0.00;0.00%;0;4
+PrimitiveArrayArgumentToVarargsMethod;Java/Probable bugs;Confusing primitive array argument to varargs method;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousIntegerDivAssignment;Java/Probable bugs;Suspicious integer division assignment;JAVA;LOCAL;0.00;0.00%;0;4
+EmptyTryBlock;Java/Error handling;Empty 'try' block;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousSystemArraycopy;Java/Probable bugs;Suspicious 'System.arraycopy()' call;JAVA;LOCAL;0.00;0.00%;0;4
+OptionalOfNullableMisuse;Java/Probable bugs;Use of Optional.ofNullable with null or non-null argument;JAVA;LOCAL;0.00;0.00%;0;4
+AssertWithSideEffects;Java/Probable bugs;'assert' statement with side effects;JAVA;LOCAL;0.00;0.00%;0;4
+DuplicateBranchesInSwitch;Java/Verbose or redundant code constructs;Duplicate branches in 'switch';JAVA;LOCAL;0.00;0.00%;0;4
+SimplifiableConditionalExpression;Java/Control flow issues;Simplifiable conditional expression;JAVA;LOCAL;0.00;0.00%;0;4
+SillyAssignment;Java/Declaration redundancy;Variable is assigned to itself;JAVA;LOCAL;0.00;0.00%;0;4
+CollectionAddedToSelf;Java/Probable bugs;Collection added to itself;JAVA;LOCAL;0.00;0.00%;0;4
+ThrowableSupplierOnlyThrowException;Java/Error handling;Throwable supplier never returns a value;JAVA;LOCAL;0.00;0.00%;0;4
+IfStatementMissingBreakInLoop;Java/Performance;Early loop exit in 'if' condition;JAVA;LOCAL;0.00;0.00%;0;4
+FunctionalExpressionCanBeFolded;Java/Declaration redundancy;Functional expression can be folded;JAVA;LOCAL;0.00;0.00%;0;4
+MalformedFormatString;Java/Probable bugs;Malformed format string;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantStreamOptionalCall;Java/Verbose or redundant code constructs;Redundant step in 'Stream' or 'Optional' call chain;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousReturnByteInputStream;Java/Probable bugs;Suspicious byte value returned from 'InputStream.read()';JAVA;LOCAL;0.00;0.00%;0;4
+SlowListContainsAll;Java/Performance;Call to 'list.containsAll(collection)' may have poor performance;JAVA;LOCAL;0.00;0.00%;0;4
+EqualsOnSuspiciousObject;Java/Probable bugs;'equals()' called on classes which don't override it;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryReturnStatement;Java/Verbose or redundant code constructs;Unnecessary 'return' statement;JAVA;LOCAL;0.00;0.00%;0;4
+EndlessStream;Java/Probable bugs;Non-short-circuit operation consumes infinite stream;JAVA;LOCAL;0.00;0.00%;0;4
+QodanaJavaSanity;General;Java sanity;JAVA;LOCAL;0.00;0.00%;0;4
+FuseStreamOperations;Java/Code style issues;Subsequent steps can be fused into Stream API chain;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantStringFormatCall;Java/Performance;Redundant call to 'String.format()';JAVA;LOCAL;0.00;0.00%;0;4
+ConditionalExpressionWithIdenticalBranches;Java/Control flow issues;Conditional expression with identical branches;JAVA;LOCAL;0.00;0.00%;0;4
+PointlessNullCheck;Java/Control flow issues;Unnecessary 'null' check before method call;JAVA;LOCAL;0.00;0.00%;0;4
+DefaultNotLastCaseInSwitch;Java/Control flow issues;'default' not last case in 'switch';JAVA;LOCAL;0.00;0.00%;0;4
+StringConcatenationInsideStringBufferAppend;Java/Performance;String concatenation as argument to 'StringBuilder.append()' call;JAVA;LOCAL;0.00;0.00%;0;4
+ArrayEquals;Java/Probable bugs;'equals()' called on array;JAVA;LOCAL;0.00;0.00%;0;4
+BoxingBoxedValue;Java/Performance;Boxing of already boxed value;JAVA;LOCAL;0.00;0.00%;0;4
+DeprecatedIsStillUsed;Java/Code maturity;Deprecated member is still used;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantComparatorComparing;Java/Verbose or redundant code constructs;Comparator method can be simplified;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantCollectionOperation;Java/Verbose or redundant code constructs;Redundant 'Collection' operation;JAVA;LOCAL;0.00;0.00%;0;4
+SwitchStatementWithTooFewBranches;Java/Control flow issues;Minimum 'switch' branches;JAVA;LOCAL;0.00;0.00%;0;4
+OnlyOneElementUsed;Java/Verbose or redundant code constructs;Only one element is used;JAVA;LOCAL;0.00;0.00%;0;4
+CollectionAddAllCanBeReplacedWithConstructor;Java/Performance;Redundant 'Collection.addAll()' call;JAVA;LOCAL;0.00;0.00%;0;4
+UnnecessaryToStringCall;Java/Code style issues;Unnecessary call to 'toString()';JAVA;LOCAL;0.00;0.00%;0;4
+AtomicFieldUpdaterIssues;Java/Threading issues;Inconsistent 'AtomicFieldUpdater' declaration;JAVA;LOCAL;0.00;0.00%;0;4
+ConfusingArgumentToVarargsMethod;Java/Probable bugs;Confusing argument to varargs method;JAVA;LOCAL;0.00;0.00%;0;4
+StringEqualsEmptyString;Java/Performance;'String.equals()' can be replaced with 'String.isEmpty()';JAVA;LOCAL;0.00;0.00%;0;4
+IncorrectDateTimeFormat;Java/Probable bugs;Incorrect 'DateTimeFormat' pattern;JAVA;LOCAL;0.00;0.00%;0;4
+RedundantJavaTimeOperations;Java/Verbose or redundant code constructs;Redundant operation on 'java.time' object;JAVA;LOCAL;0.00;0.00%;0;4
+CopyConstructorMissesField;Java/Probable bugs;Copy constructor misses field;JAVA;LOCAL;0.00;0.00%;0;4
+ThrowableNotThrown;Java/Probable bugs;'Throwable' not thrown;JAVA;LOCAL;0.00;0.00%;0;4
+InvalidComparatorMethodReference;Java/Probable bugs;Invalid method reference used for 'Comparator';JAVA;LOCAL;0.00;0.00%;0;4
+ResultOfMethodCallIgnored;Java/Probable bugs;Result of method call ignored;JAVA;LOCAL;0.00;0.00%;0;4
+SuspiciousIndentAfterControlStatement;Java/Probable bugs;Suspicious indentation after control statement without braces;JAVA;LOCAL;0.00;0.00%;0;4
+CastCanBeRemovedNarrowingVariableType;Java/Verbose or redundant code constructs;Too weak variable type leads to unnecessary cast;JAVA;LOCAL;0.00;0.00%;0;4

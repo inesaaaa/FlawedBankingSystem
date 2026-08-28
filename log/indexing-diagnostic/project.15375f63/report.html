@@ -1,0 +1,934 @@
+<html>
+  <head>
+    <title>Indexing diagnostics of 'project'</title>
+    <style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.activity-table {
+  width: 100%;
+}
+
+table.metrics-table {
+  width: auto;
+}
+
+.red-text {
+  color: red;
+}
+
+table.narrow-activity-table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.stats-content {
+  margin-left: 20%;
+}
+
+.stats-activity-content {
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.aggregate-activity-report-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.aggregate-header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+
+.table-with-margin{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}
+
+.scanning-table-row {
+  background-color: aliceblue;
+}
+
+.not-applicable-data{
+  color: darkgrey;
+}</style>
+    <script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script>
+  </head>
+  <body>
+    <div class="aggregate-activity-report-content">
+      <h1 class="aggregate-header">project</h1>
+      <div>All durations are wall time; total and content loading time include pauses
+        <table class="centered-text table-with-margin activity-table"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Click for details</caption>
+          <thead>
+            <tr>
+              <th colspan="14">History of scannings and indexings</th>
+            </tr>
+            <tr>
+              <th colspan="7">Time</th>
+              <th colspan="5">Files</th>
+              <th rowspan="2">Scanning ID(s)</th>
+              <th rowspan="2">Scanning Type</th>
+            </tr>
+            <tr>
+              <th>Started</th>
+              <th>Started dumb mode</th>
+              <th>Finished</th>
+              <th>Total&nbsp;time</th>
+              <th>Time spent on pause</th>
+              <th>Full dumb mode time</th>
+              <th>Dumb mode time w/o pauses</th>
+              <th>Scanned</th>
+              <th>Shared indexes (w/o content loading)</th>
+              <th>Scheduled for indexing</th>
+              <th>Shared indexes (content loaded)</th>
+              <th>Total indexed (shared indexes included)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2026-06-10-09-31-46.550.html">
+              <td>09:31:46 10 Jun</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>09:31:46 10 Jun</td>
+              <td>163 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>43388</td>
+              <td>0</td>
+              <td>0</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>3</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2026-06-10-09-31-43.098.html">
+              <td>09:31:43 10 Jun</td>
+              <td>09:31:43 10 Jun</td>
+              <td>09:31:43 10 Jun</td>
+              <td>47 ms</td>
+              <td>0</td>
+              <td>47 ms</td>
+              <td>47 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>16<br>(incl. 16 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2026-06-10-09-30-21.666.html">
+              <td>09:30:21 10 Jun</td>
+              <td>09:30:21 10 Jun</td>
+              <td>09:30:21 10 Jun</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2026-06-10-09-30-21.646.html">
+              <td>09:30:21 10 Jun</td>
+              <td>09:30:21 10 Jun</td>
+              <td>09:30:21 10 Jun</td>
+              <td>87 ms</td>
+              <td>0</td>
+              <td>87 ms</td>
+              <td>87 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>1407<br>(incl. 4 changed in VFS)</td>
+              <td>2</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2026-06-10-09-30-21.611.html">
+              <td>09:30:21 10 Jun</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>09:30:21 10 Jun</td>
+              <td>24 ms</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1409</td>
+              <td>0</td>
+              <td>1403</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>2</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2026-06-10-09-30-21.528.html">
+              <td>09:30:15 10 Jun</td>
+              <td>09:30:15 10 Jun</td>
+              <td>09:30:21 10 Jun</td>
+              <td>5 s 986 ms</td>
+              <td>0</td>
+              <td>5 s 986 ms</td>
+              <td>5 s 986 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>43334<br>(incl. 11 changed in VFS)</td>
+              <td>0, 1</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2026-06-10-09-30-15.959.html">
+              <td>09:30:15 10 Jun</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>09:30:15 10 Jun</td>
+              <td>19 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>97</td>
+              <td>0</td>
+              <td>87</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>1</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2026-06-10-09-30-15.517.html">
+              <td>09:30:14 10 Jun</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>09:30:15 10 Jun</td>
+              <td>1 s 319 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>43733</td>
+              <td>0</td>
+              <td>43323</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>full on project open</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2026-06-10-09-25-15.638.html">
+              <td>09:25:15 10 Jun</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>09:25:15 10 Jun</td>
+              <td>175 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>43388</td>
+              <td>0</td>
+              <td>0</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>3</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2026-06-10-09-25-12.230.html">
+              <td>09:25:12 10 Jun</td>
+              <td>09:25:12 10 Jun</td>
+              <td>09:25:12 10 Jun</td>
+              <td>90 ms</td>
+              <td>0</td>
+              <td>90 ms</td>
+              <td>90 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>17<br>(incl. 17 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2026-06-10-09-23-40.313.html">
+              <td>09:23:40 10 Jun</td>
+              <td>09:23:40 10 Jun</td>
+              <td>09:23:40 10 Jun</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2026-06-10-09-23-40.296.html">
+              <td>09:23:40 10 Jun</td>
+              <td>09:23:40 10 Jun</td>
+              <td>09:23:40 10 Jun</td>
+              <td>162 ms</td>
+              <td>0</td>
+              <td>162 ms</td>
+              <td>162 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>1407<br>(incl. 4 changed in VFS)</td>
+              <td>2</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2026-06-10-09-23-40.198.html">
+              <td>09:23:40 10 Jun</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>09:23:40 10 Jun</td>
+              <td>26 ms</td>
+              <td>3 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1409</td>
+              <td>0</td>
+              <td>1403</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>2</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2026-06-10-09-23-40.102.html">
+              <td>09:23:33 10 Jun</td>
+              <td>09:23:33 10 Jun</td>
+              <td>09:23:40 10 Jun</td>
+              <td>6 s 355 ms</td>
+              <td>0</td>
+              <td>6 s 355 ms</td>
+              <td>6 s 355 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>43267<br>(incl. 11 changed in VFS)</td>
+              <td>0, 1</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2026-06-10-09-23-34.111.html">
+              <td>09:23:33 10 Jun</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>09:23:33 10 Jun</td>
+              <td>17 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>27</td>
+              <td>0</td>
+              <td>20</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>1</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2026-06-10-09-23-33.723.html">
+              <td>09:23:32 10 Jun</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>09:23:33 10 Jun</td>
+              <td>1 s 214 ms</td>
+              <td>2 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>43663</td>
+              <td>0</td>
+              <td>43256</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>full on project open</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table metrics-table">
+          <thead>
+            <tr>
+              <th colspan="2">Metrics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>indexingTimeWithoutPauses</td>
+              <td>12 s 731 ms</td>
+            </tr>
+            <tr>
+              <td>scanningTimeWithoutPauses</td>
+              <td>2 s 949 ms</td>
+            </tr>
+            <tr>
+              <td>pausedTimeInIndexingOrScanning</td>
+              <td>10 ms</td>
+            </tr>
+            <tr>
+              <td>dumbModeTimeWithPauses</td>
+              <td>12 s 727 ms</td>
+            </tr>
+            <tr>
+              <td>numberOfScannedFiles</td>
+              <td>177114</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles</td>
+              <td>89448</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFilesWritingIndexValue</td>
+              <td>89448</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFilesWithNothingToWrite</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>numberOfFilesIndexedByExtensions</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>numberOfFilesIndexedWithoutExtensions</td>
+              <td>89448</td>
+            </tr>
+            <tr>
+              <td>numberOfRunsOfScannning</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>numberOfRunsOfIndexing</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#JAVA</td>
+              <td>69037</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#CLASS</td>
+              <td>62563</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#XML</td>
+              <td>13220</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#DTD</td>
+              <td>8405</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#kotlin_builtins</td>
+              <td>569</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Properties</td>
+              <td>17606</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#JavaScript</td>
+              <td>16198</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#PLAIN_TEXT</td>
+              <td>44749</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#HTML</td>
+              <td>2963</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#RNG Compact</td>
+              <td>20145</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Java module</td>
+              <td>23266</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#CSS</td>
+              <td>6082</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#JSON</td>
+              <td>14270</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#AUTO_DETECTED</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#PATCH</td>
+              <td>18718</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#SPI</td>
+              <td>4951</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#kotlin_module</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Manifest</td>
+              <td>1435</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#SARIF</td>
+              <td>3113</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#JAVA</td>
+              <td>263</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#CLASS</td>
+              <td>3937</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#XML</td>
+              <td>785</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#DTD</td>
+              <td>531</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#kotlin_builtins</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Properties</td>
+              <td>1364</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#JavaScript</td>
+              <td>938</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#PLAIN_TEXT</td>
+              <td>1625</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#HTML</td>
+              <td>246</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#RNG Compact</td>
+              <td>1603</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Java module</td>
+              <td>1900</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#CSS</td>
+              <td>528</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#JSON</td>
+              <td>1217</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#AUTO_DETECTED</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#PATCH</td>
+              <td>1104</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#SPI</td>
+              <td>75</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#kotlin_module</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Manifest</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#SARIF</td>
+              <td>279</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#JAVA</td>
+              <td>68865</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#XML</td>
+              <td>9832</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#DTD</td>
+              <td>8405</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#Properties</td>
+              <td>17606</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#TEXT</td>
+              <td>44749</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#HTML</td>
+              <td>2963</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#RELAX-NG</td>
+              <td>20145</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#JSON</td>
+              <td>14234</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#SPI</td>
+              <td>4951</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#Manifest</td>
+              <td>1435</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#JAVA</td>
+              <td>263</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#XML</td>
+              <td>330</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#DTD</td>
+              <td>531</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#Properties</td>
+              <td>1364</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#TEXT</td>
+              <td>1625</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#HTML</td>
+              <td>246</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#RELAX-NG</td>
+              <td>1603</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#JSON</td>
+              <td>1213</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#SPI</td>
+              <td>75</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#Manifest</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <td>processingTime#JAVA</td>
+              <td>6 s 84 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#CLASS</td>
+              <td>4 s 447 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#XML</td>
+              <td>652 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#DTD</td>
+              <td>230 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#kotlin_builtins</td>
+              <td>187 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Properties</td>
+              <td>109 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#JavaScript</td>
+              <td>266 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#PLAIN_TEXT</td>
+              <td>95 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#HTML</td>
+              <td>274 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#RNG Compact</td>
+              <td>48 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Java module</td>
+              <td>22 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#CSS</td>
+              <td>95 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#JSON</td>
+              <td>196 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#AUTO_DETECTED</td>
+              <td>0 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#PATCH</td>
+              <td>0 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#SPI</td>
+              <td>0 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#kotlin_module</td>
+              <td>14 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Manifest</td>
+              <td>1 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#SARIF</td>
+              <td>0 ms</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#JAVA</td>
+              <td>30418</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#CLASS</td>
+              <td>57612</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#XML</td>
+              <td>251</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#DTD</td>
+              <td>220</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#kotlin_builtins</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#Properties</td>
+              <td>216</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#JavaScript</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#PLAIN_TEXT</td>
+              <td>233</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#HTML</td>
+              <td>29</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#RNG Compact</td>
+              <td>196</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#Java module</td>
+              <td>136</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#CSS</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#JSON</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#AUTO_DETECTED</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#PATCH</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#SPI</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#kotlin_module</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#Manifest</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles#SARIF</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table">
+          <thead>
+            <tr>
+              <th colspan="5">Scanning to push properties of changed files</th>
+            </tr>
+            <tr>
+              <th>Time</th>
+              <th>Reason</th>
+              <th>Full duration</th>
+              <th>Is cancelled</th>
+              <th>Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>09:31:43 10 Jun</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>09:31:40 10 Jun</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>09:25:12 10 Jun</td>
+              <td>Push on VFS changes</td>
+              <td>2 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>09:25:09 10 Jun</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

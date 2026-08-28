@@ -1,0 +1,79 @@
+{
+  "appInfo" : {
+    "build" : "262.7671",
+    "buildDate" : "2026-06-10T09:29:48.595Z[GMT]",
+    "productCode" : "QDJVM",
+    "generated" : "2026-06-10T09:30:15.96022517Z",
+    "os" : "Linux 6.12.76-linuxkit",
+    "runtime" : "JetBrains s.r.o. 25.0.3 25.0.3+9-b508.4"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 7293894656,
+    "numberOfProcessors" : 16,
+    "maxNumberOfIndexingThreads" : 16,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "project",
+    "times" : {
+      "scanningReason" : "Changes from WorkspaceFileIndex (2 iterators)",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 16911874,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 1283666,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 15317000,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 9995,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2026-06-10T09:30:15.520451712Z",
+      "updatingEnd" : "2026-06-10T09:30:15.539510087Z",
+      "totalWallTimeWithPauses" : 19058375,
+      "wallTimeOnPause" : 853292,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 18205083
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 97,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 87
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Module 'FlawedBankingSystem' (java)",
+      "numberOfScannedFiles" : 4,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 4,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 7369042,
+      "totalOneThreadTimeWithPauses" : 10074791,
+      "iterationAndScannersApplicationTime" : 133708,
+      "filesCheckTime" : 9800500,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 502,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'FlawedBankingSystem' (project)",
+      "numberOfScannedFiles" : 93,
+      "numberOfSkippedFiles" : 7,
+      "numberOfFilesForIndexing" : 83,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 4009287,
+      "totalOneThreadTimeWithPauses" : 6837083,
+      "iterationAndScannersApplicationTime" : 1149958,
+      "filesCheckTime" : 5516500,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 5583,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 9493,
+      "roots" : [ ]
+    } ]
+  }
+}

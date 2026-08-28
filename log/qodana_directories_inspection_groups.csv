@@ -1,0 +1,16 @@
+Directory;Absolute Time spent on Inspection Group 'all', s;Percent of Time spent on Inspection Group 'all';Inspections Problem Count in Group 'all';Times Inspection from Group 'all' was Performed
+/data/project;2.12;100.00%;12;1746
+/data/project/log;1.50;70.52%;0;327
+/data/project/log/indexing-diagnostic;0.74;34.98%;0;207
+/data/project/log/indexing-diagnostic/project.15375f63;0.53;25.11%;0;195
+/data/project/log/telemetry;0.58;27.30%;0;41
+/data/project/log/qodana;0.00;0.00%;0;4
+/data/project/src/main/java/com/flawedbank;0.31;14.45%;12;1248
+/data/project/report;0.19;8.99%;0;114
+/data/project/report/results;0.19;8.92%;0;60
+/data/project/report/results/descriptions;0.15;7.24%;0;4
+/data/project/report/results/projectStructure;0.02;0.82%;0;28
+/data/project/report/css;0.00;0.00%;0;4
+/data/project/report/js;0.00;0.00%;0;28
+/data/project/projectStructure;0.05;2.14%;0;28
+/data/project/.github/workflows;0.00;0.00%;0;4

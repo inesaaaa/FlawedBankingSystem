@@ -1,0 +1,68 @@
+{
+  "modules": [
+    {
+      "name": "FlawedBankingSystem",
+      "contentEntries": [
+        {
+          "path": "file://$PROJECT_DIR$",
+          "excludePatterns": [],
+          "excludeFolders": [
+            {
+              "path": "file://$PROJECT_DIR$/target",
+              "type": "Exclude",
+              "packagePrefix": ""
+            }
+          ],
+          "sourceFolders": [
+            {
+              "path": "file://$PROJECT_DIR$/src/main/java",
+              "type": "Source",
+              "packagePrefix": ""
+            },
+            {
+              "path": "file://$PROJECT_DIR$/src/main/resources",
+              "type": "Resource",
+              "packagePrefix": ""
+            },
+            {
+              "path": "file://$PROJECT_DIR$/src/test/java",
+              "type": "TestSource",
+              "packagePrefix": ""
+            },
+            {
+              "path": "file://$PROJECT_DIR$/src/test/resources",
+              "type": "TestResource",
+              "packagePrefix": ""
+            }
+          ]
+        }
+      ],
+      "orderEntries": [
+        {
+          "name": "openjdk-26",
+          "type": "SDK"
+        },
+        {
+          "name": "<Module source>",
+          "type": "Own sources"
+        },
+        {
+          "name": "Maven: org.springframework:spring-core:5.3.21",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: org.springframework:spring-jcl:5.3.21",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: junit:junit:4.13.2",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: org.hamcrest:hamcrest-core:1.3",
+          "type": "Library"
+        }
+      ]
+    }
+  ]
+}

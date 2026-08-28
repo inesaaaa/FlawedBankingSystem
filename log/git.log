@@ -1,0 +1,6 @@
+time="2026-06-10T09:23:06Z" level=info msg="Executing command: git [rev-parse --show-toplevel]"
+time="2026-06-10T09:23:06Z" level=info msg="/data/project\n"
+time="2026-06-10T09:29:47Z" level=info msg="Executing command: git [rev-parse --show-toplevel]"
+time="2026-06-10T09:29:47Z" level=info msg="/data/project\n"
+time="2026-06-10T09:29:47Z" level=info msg="Executing command: git [rev-parse --show-toplevel]"
+time="2026-06-10T09:29:47Z" level=info msg="/data/project\n"
